@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto_base_LandingPage</title>
+    
+</head>
+<body>
+    <div id="divisao1">
+        <a href="https://www.escoladnc.com.br/"><img src="./imageLandingPage/LogoDNC.png" id="logoDNC" alt="logoDNC"></a>
+        
+        <h1 id="titleDivisao1">
+            Dê os primeiros passos da sua carreira em Tecnologia
+        </h1>
+
+        <p id="textDivisao1">
+                Inscreva-se no curso gratuito de Introdução à <br>
+                da DNC School e aprenda os principais <br>
+                para construir experiências efetivas.
+        </p>
+    </div>
+
+    <div id="divisao2">
+        
+        <p class="textDivisao2"><img src="./imageLandingPage/camera.png" class="icones" id="certificado" alt="certificado">Certificado de conclusão</p>
+        <p class="textDivisao2"><img src="./imageLandingPage/relogio.png" class="icones" id="relogio" alt="relogio">4 horas de conteúdo</p>
+        <p class="textDivisao2"><img src="./imageLandingPage/camera.png" class="icones" id="camera" alt="camera">Aulas online gravadas</p>
+    </div>
+       
+    <div id="divisao3">
+        <iframe id="videoDivisao3" width="502" height="283" src="https://www.youtube.com/embed/45BeP-XJDFA" title="Conheça a Jornada do Aluno DNC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div id="historiDivisao3">
+            <h1 id="titleDivisao3">
+                Aprenda com especialistas e<br>
+                comece seu primeiro projeto
+            </h1>
+
+            <p id="textDivisao3">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos.
+
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.
+            </p>
+        </div>
+    </div>
+        
+    <div id="divisao4"> 
+       <h1 id="titleDivisao4">
+        Mais de 500 alunos já iniciaram seus estudos
+        </h1>
+
+        <div id="comentarioDivisao4">
+            <img id="setaEsquerda" onclick="rolarParaEsquerda()" class="seta" src="./imageLandingPage/setaEsquerda.png" alt="setaEsquerda">
+            <img id="comentario1" class="comentario" src="./imageLandingPage/comentario1.png" alt="comentario1">
+            <img id="comentario2" class="comentario" src="./imageLandingPage/comentario2.png" alt="comentario2">
+            <img id="comentario3" class="comentario" src="./imageLandingPage/comentario3.png" alt="comentario3">
+            <img id="setaDireita" onclick="rolarParaDireita()" class="seta" src="./imageLandingPage/setaDireita.png" alt="setaDireita">
+        </div>
+
+    </div>
+
+    <div id="divisao5"> 
+        <h1 id="titleDivisao5">
+            Comece agora mesmo e dê o próximo passo da sua carreira
+        </h1>
+        <form id="formularioDivisao5" action="https://api.sheetmonkey.io/form/mrhU2o5hkdhnidhLiHAKKV" method="post">
+            <input class="formulario" type="text" placeholder="Nome" name="Name" required><br>
+            <input class="formulario" type="email" placeholder="E-mail" name="E-mail" required><br>
+            <input class="formulario" type="number" placeholder="Telefone" name="Phone" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button id="botaoDivisao5" type="submit">Receber acesso grátis</button>
+        </form>      
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

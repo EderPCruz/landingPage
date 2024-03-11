@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";  
+}
+
+#divisao1 {
+    background-image: url(./imageLandingPage/fundoDaLogo.jpeg);
+    color: #FFFFFF;
+    }
+
+    #logoDNC {
+        width: 125px;
+        height: 62px;
+        margin-top: 52px;
+        margin-left: 56px;
+    }
+
+    #titleDivisao1 {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    #textDivisao1 {
+        margin-top: 35px;
+        margin-left: 150px;
+        padding-bottom: 100px;
+    }
+
+#divisao2 {
+background-color: #EAECE5;
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+} 
+
+    .icones{
+        margin: 50px 0px 50px 100px;
+        padding: 0px 25px 0px 0px;
+    }
+
+    .textDivisao2{
+        display: flex;
+        align-items: center;
+    }
+
+#divisao3 {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;    
+}
+
+    #videoDivisao3{
+        padding: 50px 25px 50px 100px;
+    }
+
+    #historiDivisao3{
+        padding: 50px 100px 50px 25px;
+    }
+
+        #titleDivisao3 {
+            color: #247BA0;
+            padding-bottom: 25px;
+        }
+
+        #textDivisao3{
+            padding-top: 25px;
+        }
+
+#divisao4 {
+background-color: #247BA0;
+height: 444px;
+}
+
+    #titleDivisao4 {
+        color: #EAECE5;
+        text-align: center;
+        font-size: 32px;
+        padding: 40px 0px 60px 0px;
+    }
+
+    #setaEsquerda {
+        display: none;
+        margin-left: 50%;
+    }
+
+    #comentarioDivisao4 {
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;    
+    }
+
+    #comentario3 {
+        display: none;
+    }
+
+    .seta {
+        margin-top: 20%;
+        cursor: pointer;
+    }
+
+    .seta:hover {
+        transform: translateX(7px);
+    }
+
+#divisao5 {
+    text-align: center;
+}
+
+    #titleDivisao5 {
+        color: #383838;
+        font-size: 32px;
+    }
+
+    .formulario {
+        width: 500px;
+        height: 43px;
+        background-color: #EAECE5;
+        margin: 10px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 15px;      
+    }
+
+    #botaoDivisao5 {
+        width: 400px;
+        height: 43px;
+        background: #247BA0;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color:#FFFFFF;
+        font-weight: bolder;
+    } 
+
+    #botaoDivisao5:hover {
+        background: #146794;
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 20px #000000f1;
+        transition-duration: 0.5s;
+    }
